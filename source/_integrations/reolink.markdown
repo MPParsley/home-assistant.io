@@ -47,11 +47,11 @@ Host:
     required: false
     type: string
 Username:
-    description: "Username to login to the Reolink device itself. Not the Reolink cloud account."
+    description: "Username to log in to the Reolink device itself. Not the Reolink cloud account."
     required: true
     type: string
 Password:
-    description: "Password to login to the Reolink device itself. Not the Reolink cloud account."
+    description: "Password to log in to the Reolink device itself. Not the Reolink cloud account."
     required: true
     type: string
 {% endconfiguration_basic %}
