@@ -52,7 +52,7 @@ If an entity listed below has an asterisk (*) next to its name, it means it is d
 
 If an entity listed below has an plus (+) next to its name, it means this entity supports push updates. These entities will have almost instant state changes. 
 For redundancy, the state of all entities is also polled every 60 seconds. For entities withouth a plus (+) this is the only update method. Therefore a state change of the device can take up to 60 seconds to be reflected for those entities in Home Assistant.
-An exception is the firmware update entity which is beeing polled every 12 hours.
+An exception is the firmware update entity which is being polled every 12 hours.
 
 ## Camera streams
 
