@@ -129,3 +129,14 @@ If your hub (e.g. Somfy Connectivity Kit) supports HomeKit natively, your setup 
 #### Local API via Velux KLF200 hub
 
 If you are only using Somfy IO-compatible devices, you could purchase a Velux KLF200 hub and use [the Velux integration](/integrations/velux/) which has a local API.
+
+### Docker could not connect to Tahoma
+
+If you are using Docker, it's possible that the container running Home Assistant doesn't have access to the hostname of the Tahoma service running the API.
+
+```
+curl -I gateway-xxxx-xxxx-xxxx.local:8443
+curl: (6) Could not resolve host: gateway-xxxx-xxxx-xxxx.local
+```
+
+Make sure Home Assistant has access to the service or use the IP address instead of the hostname.
