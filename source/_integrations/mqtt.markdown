@@ -51,6 +51,10 @@ MQTT (aka MQ Telemetry Transport) is a machine-to-machine or "Internet of Things
 
 {% include integrations/config_flow.md %}
 
+### Removing the MQTT integration
+
+The MQTT integration and its entities can be removed from by removing the MQTT config entry. Note that this does not remove the MQTT broker, or the MQTT broker data. Make sure you cleanup any MQTT related YAML configuration if you choose to remove MQTT.
+
 <a name="configuration-via-mqtt-discovery"></a>
 {% details "Configuration of MQTT components via MQTT discovery" %}
 
